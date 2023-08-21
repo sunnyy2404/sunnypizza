@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MENU</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            p.links{
+                background-color: rgb(255, 252, 252);
+                opacity: 0.6;
+            }
+            .home{
+                font-family:monospace;
+                color: rgb(7, 31, 31);
+                font-size: 25px;
+                padding: auto;
+
+            }
+            h1,th{
+                color:aliceblue;
+            }
+            .column {
+                float: left;
+                width: 33.33%;
+            }
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            .items{
+                border-radius: 10;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="links">
+            <a href="mainpage.html" class="home">HOME</a>
+            <label>&emsp; &emsp;</label>
+            <a href="menu.html" class="home">MENU</a>
+            <label>&emsp; &emsp;</label>
+            <a href="about.html" class="home">ABOUT</a>
+            <label>&emsp; &emsp;</label>
+            <a href="contact.html" class="home">CONTACT</a>
+        </p>
+        <p class="heading">
+            <h1>
+                <center>THE MENU</center>
+            </h1>
+        </p>
+        <p>
+            <div class="row">
+                <div class="column">
+                    <table width= "200">
+                        <tr>
+                            <th>PIZZA</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="items">
+                                    <p>Margheritta</p>
+                                    <p>Fresh Tomatos,Fresh basil</p>
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="column">
+                    <table width= "200">
+                        <tr>
+                            <th>SALADS</th>
+                        </tr>
+                    </table>
+                </div> 
+                <div class="column">
+                    <table width= "200">
+                        <tr>
+                            <th>STARTERS</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </p>
+    </body>
+</html>
